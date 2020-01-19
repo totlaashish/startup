@@ -238,6 +238,9 @@
 				/* background-color: #e15a1f; */
 				background-color: #fff;
 			}
+			 #nav ul {
+padding:10px!important;
+}	
 				#nav > ul > li
 				{
 					width: 20%;
@@ -287,7 +290,7 @@
 						#nav li ul a
 						{
 							/* border-top: 1px solid #e15a1f; */
-							border-top: 1px solid #fff;
+							border-bottom: 1px solid #fff;
 							padding: 5px; /* 15 (20) */
 							font-size:14px;
 						}
@@ -297,7 +300,7 @@
 								/* background-color: #e15a1f; */
 								background-color: #fff;
 							}
-
+		
 
 		@media only screen and ( max-width: 62.5em ) /* 1000 */
 		{
@@ -390,11 +393,23 @@
 				#nav li ul
 				{
 					position: static;
-					padding: 1.25em; /* 20 */
+					padding: 0px; /* 20 */
 					padding-top: 0;
 					background-color:aliceblue;
 					width:100%;
 				}
+}
+
+.setNavSpan {
+	    height: auto;
+    text-align: left;
+    padding: 0 0.833em;
+	font-size: 16px;
+    line-height: 2.5em; 
+	color: black;
+    display: block;
+	border-right: none;
+    border-bottom: 1px solid #fff;
 }
 /* --------------------------------------------------------	*/
 /*  Tabs  */
@@ -639,6 +654,3 @@ header {
 	 }
  }
  
- #nav ul {
-padding:10px!important;
-}	
