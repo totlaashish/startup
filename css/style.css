@@ -631,4 +631,14 @@ header {
 	 position:relative;
 	 z-index:1;
  }
- @media(max-width:767px){.topSection{margin-top:240px;}}
+ @media(max-width:767px){
+	 .topSection{margin-top:240px;}
+	 .topSectionWater {margin-top:320px;}
+.md-stepper-horizontal .md-step {
+    padding: 18px;
+	 }
+ }
+ 
+ #nav ul {
+padding:10px!important;
+}	
